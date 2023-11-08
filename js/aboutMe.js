@@ -34,23 +34,23 @@ document.addEventListener('mousemove', (event) => {
     const emailRect = emailButton.getBoundingClientRect();
     const whatsappRect = whatsappButton.getBoundingClientRect();
     if(x>audioRect.left && x<audioRect.left+audioButton.offsetWidth && y>audioRect.top && y<audioRect.top+audioButton.offsetHeight){
-        mousePointer.src='../assets/images/FlechaNaranja.png'
+        mousePointer.src='./assets/images/FlechaNaranja.png'
     }
     else if(x>returnRect.left && x<returnRect.left+returnButton.offsetWidth && y>returnRect.top && y<returnRect.top+returnButton.offsetHeight){
-        mousePointer.src='../assets/images/FlechaNaranja.png'
+        mousePointer.src='./assets/images/FlechaNaranja.png'
     }
     else if(x>linkedinRect.left && x<linkedinRect.left+linkedinButton.offsetWidth && y>linkedinRect.top && y<linkedinRect.top+linkedinButton.offsetHeight){
-        mousePointer.src='../assets/images/FlechaNaranja.png'
+        mousePointer.src='./assets/images/FlechaNaranja.png'
     }
     else if(x>emailRect.left && x<emailRect.left+emailButton.offsetWidth && y>emailRect.top && y<emailRect.top+emailButton.offsetHeight){
-        mousePointer.src='../assets/images/FlechaNaranja.png'
+        mousePointer.src='./assets/images/FlechaNaranja.png'
     }
     else if(x>whatsappRect.left && x<whatsappRect.left+whatsappButton.offsetWidth && y>whatsappRect.top && y<whatsappRect.top+whatsappButton.offsetHeight){
-            mousePointer.src='../assets/images/FlechaNaranja.png'
+            mousePointer.src='./assets/images/FlechaNaranja.png'
         }
     
     else{
-        mousePointer.src='../assets/images/Flecha.png'
+        mousePointer.src='./assets/images/Flecha.png'
     }
 });
 
@@ -58,7 +58,7 @@ audioButton.addEventListener('click',()=>{
     if(audio==1){
         siteSong.pause()
         audio=0
-        audioImg.src='../assets/images/NotaGris.png'
+        audioImg.src='./assets/images/NotaGris.png'
     }
     else{
         siteSong.play()
