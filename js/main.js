@@ -52,11 +52,11 @@ audioButton.addEventListener('click',()=>{
     if(audio==1){
         siteSong.pause()
         audio=0
-        audioImg.src='../assets/images/NotaGris.png'
+        audioImg.src='./assets/images/NotaGris.png'
     }
     else{
         siteSong.play()
         audio=1
-        audioImg.src='../assets/images/Musica.gif'
+        audioImg.src='./assets/images/Musica.gif'
     }
 })
