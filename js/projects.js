@@ -22,7 +22,7 @@ document.addEventListener('mousemove', (event) => {
     }
 });
 
-let myVideos=['assets/videos/SallyOpcional.mp4','assets/videos/ChiribiqueteOpcional.mp4','assets/videos/project3.mp4','assets/videos/project4.mp4']
+let myVideos=['assets/videos/Sallyopcional.mp4','assets/videos/Chiribiqueteopcional.mp4','assets/videos/project3.mp4','assets/videos/Project4.mp4']
 
 chanel=-1
 
