@@ -63,6 +63,6 @@ audioButton.addEventListener('click',()=>{
     else{
         siteSong.play()
         audio=1
-        audioImg.src='../assets/images/Musica.gif'
+        audioImg.src='./assets/images/Musica.gif'
     }
 })
