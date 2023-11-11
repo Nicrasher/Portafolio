@@ -32,16 +32,16 @@ document.addEventListener('mousemove', (event) => {
     const rect3 = linkButton3.getBoundingClientRect();
     const audioRect = audioButton.getBoundingClientRect();
     if(x>rect1.left && x<rect1.left+linkButton1.offsetWidth && y>rect1.top && y<rect1.top+linkButton1.offsetHeight){
-        mousePointer.src='../assets/images/FlechaNaranja.png'
+        mousePointer.src='./assets/images/FlechaNaranja.png'
     }
     else if(x>rect2.left && x<rect2.left+linkButton2.offsetWidth && y>rect2.top && y<rect2.top+linkButton2.offsetHeight){
-        mousePointer.src='../assets/images/FlechaNaranja.png'
+        mousePointer.src='./assets/images/FlechaNaranja.png'
     }
     else if(x>rect3.left && x<rect3.left+linkButton3.offsetWidth && y>rect3.top && y<rect3.top+linkButton3.offsetHeight){
-        mousePointer.src='../assets/images/FlechaNaranja.png'
+        mousePointer.src='./assets/images/FlechaNaranja.png'
     }
     else if(x>audioRect.left && x<audioRect.left+audioButton.offsetWidth && y>audioRect.top && y<audioRect.top+audioButton.offsetHeight){
-        mousePointer.src='../assets/images/FlechaNaranja.png'
+        mousePointer.src='./assets/images/FlechaNaranja.png'
     }
     else{
         mousePointer.src='./assets/images/Flecha.png'
