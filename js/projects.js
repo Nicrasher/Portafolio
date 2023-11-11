@@ -15,10 +15,10 @@ document.addEventListener('mousemove', (event) => {
     mousePointer.style.left=x+'px'
     const returnRect = returnButton.getBoundingClientRect();
     if(x>returnRect.left && x<returnRect.left+returnButton.offsetWidth && y>returnRect.top && y<returnRect.top+returnButton.offsetHeight){
-        mousePointer.src='../assets/images/FlechaNaranja.png'
+        mousePointer.src='./assets/images/FlechaNaranja.png'
     }
     else{
-        mousePointer.src='../assets/images/Flecha.png'
+        mousePointer.src='./assets/images/Flecha.png'
     }
 });
 
