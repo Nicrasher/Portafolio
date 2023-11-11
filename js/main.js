@@ -44,7 +44,7 @@ document.addEventListener('mousemove', (event) => {
         mousePointer.src='../assets/images/FlechaNaranja.png'
     }
     else{
-        mousePointer.src='../assets/images/Flecha.png'
+        mousePointer.src='./assets/images/Flecha.png'
     }
 });
 
