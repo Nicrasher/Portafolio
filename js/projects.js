@@ -46,7 +46,7 @@ function changeChanel(newChanel){
     downButton.disabled = true;
     upButton.style.filter = "grayscale(100%)";
     downButton.style.filter = "grayscale(100%)";
-    tvVideo.src='../assets/videos/estatica.mp4#t=2'
+    tvVideo.src='./assets/videos/estatica.mp4#t=2'
     setTimeout(()=>{
         tvVideo.src=myVideos[newChanel]
         upButton.disabled = false;
