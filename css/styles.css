@@ -237,7 +237,7 @@ body#homeBody{
     border: solid 6px #79d050;
 }
 
-.infoContent .social .socialButton.Insta:hover{
+.infoContent .social .socialButton.insta:hover{
     color: #79d050;
     border: solid 6px #A31796;
 }
