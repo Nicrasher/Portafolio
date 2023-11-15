@@ -33,6 +33,7 @@ document.addEventListener('mousemove', (event) => {
     const linkedinRect = linkedinButton.getBoundingClientRect();
     const emailRect = emailButton.getBoundingClientRect();
     const whatsappRect = whatsappButton.getBoundingClientRect();
+    const instaRect = instaButton.getBoundingClientRect();
     if(x>audioRect.left && x<audioRect.left+audioButton.offsetWidth && y>audioRect.top && y<audioRect.top+audioButton.offsetHeight){
         mousePointer.src='./assets/images/FlechaNaranja.png'
     }
