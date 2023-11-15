@@ -236,6 +236,11 @@ body#homeBody{
     color: #79d050;
     border: solid 6px #79d050;
 }
+
+.infoContent .social .socialButton.Insta:hover{
+    color: #79d050;
+    border: solid 6px #A31796;
+}
 .infoContent .social .socialButton img{
     border: none;
     width: 24px;
