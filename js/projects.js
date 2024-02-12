@@ -22,7 +22,7 @@ document.addEventListener('mousemove', (event) => {
     }
 });
 
-let myVideos=['https://twiick.com/YAG_salocin/Salangolin.mp4','https://twiick.com/YAG_salocin/Vspers.mp4']
+let myVideos=['./assets/videos/Salangolin.mp4','./assets/videos/Vspers.mp4']
 
 chanel=-1
 
@@ -46,7 +46,7 @@ function changeChanel(newChanel){
     downButton.disabled = true;
     upButton.style.filter = "grayscale(100%)";
     downButton.style.filter = "grayscale(100%)";
-    tvVideo.src='https://twiick.com/nicrasher/assets/videos/estatica.mp4.volume=0.5#t0.5'
+    tvVideo.src='./assets/videos/estatica.mp4.volume=0.5#t0.5'
     setTimeout(()=>{
         tvVideo.src=myVideos[newChanel]
         upButton.disabled = false;
